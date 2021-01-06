@@ -1,0 +1,10 @@
+C:\Users\Łukasz\source\repos\WordCounterWinforms\WordCounterWinforms\obj\Debug\WordCounterWinforms.csprojAssemblyReference.cache
+C:\Users\Łukasz\source\repos\WordCounterWinforms\WordCounterWinforms\obj\Debug\WordCounterWinforms.Form1.resources
+C:\Users\Łukasz\source\repos\WordCounterWinforms\WordCounterWinforms\obj\Debug\WordCounterWinforms.Properties.Resources.resources
+C:\Users\Łukasz\source\repos\WordCounterWinforms\WordCounterWinforms\obj\Debug\WordCounterWinforms.csproj.GenerateResource.cache
+C:\Users\Łukasz\source\repos\WordCounterWinforms\WordCounterWinforms\obj\Debug\WordCounterWinforms.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz\source\repos\WordCounterWinforms\WordCounterWinforms\bin\Debug\WordCounterWinforms.exe.config
+C:\Users\Łukasz\source\repos\WordCounterWinforms\WordCounterWinforms\bin\Debug\WordCounterWinforms.exe
+C:\Users\Łukasz\source\repos\WordCounterWinforms\WordCounterWinforms\bin\Debug\WordCounterWinforms.pdb
+C:\Users\Łukasz\source\repos\WordCounterWinforms\WordCounterWinforms\obj\Debug\WordCounterWinforms.exe
+C:\Users\Łukasz\source\repos\WordCounterWinforms\WordCounterWinforms\obj\Debug\WordCounterWinforms.pdb

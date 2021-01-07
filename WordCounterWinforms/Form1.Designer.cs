@@ -40,6 +40,10 @@ namespace WordCounterWinforms
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.btn_erase = new System.Windows.Forms.Button();
             this.btn_Sort = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.btn_count = new System.Windows.Forms.Button();
+            this.clm_word = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clm_frequency = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // label1
@@ -146,11 +150,45 @@ namespace WordCounterWinforms
             this.btn_Sort.UseVisualStyleBackColor = true;
             this.btn_Sort.Click += new System.EventHandler(this.btn_Sort_Click);
             // 
+            // listView1
+            // 
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.clm_frequency,
+            this.clm_word});
+            this.listView1.Location = new System.Drawing.Point(655, 131);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(224, 316);
+            this.listView1.TabIndex = 13;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // btn_count
+            // 
+            this.btn_count.Location = new System.Drawing.Point(710, 61);
+            this.btn_count.Name = "btn_count";
+            this.btn_count.Size = new System.Drawing.Size(75, 23);
+            this.btn_count.TabIndex = 14;
+            this.btn_count.Text = "Count";
+            this.btn_count.UseVisualStyleBackColor = true;
+            this.btn_count.Click += new System.EventHandler(this.btn_count_Click);
+            // 
+            // clm_word
+            // 
+            this.clm_word.Text = "word";
+            this.clm_word.Width = 103;
+            // 
+            // clm_frequency
+            // 
+            this.clm_frequency.Text = "frequency";
+            this.clm_frequency.Width = 84;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(943, 578);
+            this.Controls.Add(this.btn_count);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.btn_Sort);
             this.Controls.Add(this.btn_erase);
             this.Controls.Add(this.listBox1);
@@ -181,6 +219,10 @@ namespace WordCounterWinforms
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button btn_erase;
         private System.Windows.Forms.Button btn_Sort;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Button btn_count;
+        private System.Windows.Forms.ColumnHeader clm_word;
+        private System.Windows.Forms.ColumnHeader clm_frequency;
     }
 }
 
